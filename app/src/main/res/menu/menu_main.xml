@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.trainee6.demorecyclerv.MainActivity">
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/map"
+        android:orderInCategory="5"
+        android:title="Map"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/man"
+        android:orderInCategory="4"
+        android:title="User"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/filter"
+        android:orderInCategory="2"
+        android:title="Filter"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/action_noti"
+        android:icon="@drawable/notification"
+        android:orderInCategory="3"
+        android:title="Notification"
+        app:showAsAction="ifRoom"></item>
+
+    <!--<item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/calendar"
+        android:orderInCategory="1"
+        android:title="Search"
+        app:showAsAction="never"></item>-->
+    <item android:id="@+id/action_search"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        android:orderInCategory="1"/>
+
+</menu>
